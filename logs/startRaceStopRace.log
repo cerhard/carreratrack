@@ -1,0 +1,907 @@
+2020-01-26,14:51:32.475 [DEBUG] Connecting to COM3
+2020-01-26,14:51:32.516 [DEBUG] Connection established
+2020-01-26,14:51:32.516 [DEBUG] Sending message b'0'
+2020-01-26,14:51:32.529 [DEBUG] Unknown from track: b'05330;'
+2020-01-26,14:51:32.532 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.561 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.561 [DEBUG] Sending message b'=10'
+2020-01-26,14:51:32.576 [DEBUG] Unknown from track: b'='
+2020-01-26,14:51:32.576 [DEBUG] Sending message b'J60910'
+2020-01-26,14:51:32.592 [DEBUG] Unknown from track: b'J'
+2020-01-26,14:51:32.594 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.609 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.610 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.625 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.626 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.640 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.642 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.672 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.674 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.704 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.706 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.736 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.738 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.752 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.754 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.768 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.770 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.800 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.801 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.831 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.833 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.863 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.865 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.879 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.881 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.895 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.897 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.927 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.929 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.959 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.961 [DEBUG] Sending message b'?'
+2020-01-26,14:51:32.990 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:32.992 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.007 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.009 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.023 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.024 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.054 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.056 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.086 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.088 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.118 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.120 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.134 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.136 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.150 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.152 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.182 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.184 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.214 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.216 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.245 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.247 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.262 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.264 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.278 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.280 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.309 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.311 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.341 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.343 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.373 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.375 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.389 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.391 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.405 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.407 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.437 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.439 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.468 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.470 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.500 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.502 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.517 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.518 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.533 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.535 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.548 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.550 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.580 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.582 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.612 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.613 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.644 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.645 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.660 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.662 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.676 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.678 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.707 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.709 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.739 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.741 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.771 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.773 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.787 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.789 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.803 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.805 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.835 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.837 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.867 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.869 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.898 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.900 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.914 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.916 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.931 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.933 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.962 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.964 [DEBUG] Sending message b'?'
+2020-01-26,14:51:33.994 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:33.996 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.026 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.028 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.042 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.044 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.058 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.060 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.074 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.076 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.106 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.108 [DEBUG] Sending message b'T2'
+2020-01-26,14:51:34.121 [DEBUG] Unknown from track: b'T'
+2020-01-26,14:51:34.121 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.153 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.155 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.169 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.172 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.185 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.188 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.217 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.223 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.249 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.251 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.281 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.283 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.297 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.299 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.313 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.315 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.345 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.347 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.376 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.378 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.408 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.410 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.424 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.426 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.440 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.443 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.472 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.474 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.504 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.506 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.535 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.537 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.552 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.554 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.568 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.570 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.599 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.601 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.631 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.633 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.663 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.665 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.679 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.681 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.695 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.697 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.711 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.713 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.743 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.745 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.775 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.777 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.806 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.808 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.823 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.824 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.839 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.841 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.870 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.872 [DEBUG] Sending message b'T2'
+2020-01-26,14:51:34.886 [DEBUG] Unknown from track: b'T'
+2020-01-26,14:51:34.886 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.918 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.920 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.934 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.936 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.950 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.952 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.966 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:34.968 [DEBUG] Sending message b'?'
+2020-01-26,14:51:34.998 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.000 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.029 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.031 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.061 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.063 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.077 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.079 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.093 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.095 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.125 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.127 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.157 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.159 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.189 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.190 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.205 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.207 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.221 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.223 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.252 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.255 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.284 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.286 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.316 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.318 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.332 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.334 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.348 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.350 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.380 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.382 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.412 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.414 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.444 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.445 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.460 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.462 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.476 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.478 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.507 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.509 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.539 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.541 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.571 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.573 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.587 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.589 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.603 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.605 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.635 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.637 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.667 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.669 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.698 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.700 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.715 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.717 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.731 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.733 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.747 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.748 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.778 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.780 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.810 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.812 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.842 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.844 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.858 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.860 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.874 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.876 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.906 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.908 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.937 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=2, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.939 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.969 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.971 [DEBUG] Sending message b'?'
+2020-01-26,14:51:35.985 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:35.987 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.001 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.003 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.033 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.035 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.065 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.067 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.096 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.099 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.113 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.115 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.145 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.147 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.176 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.179 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.208 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.210 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.224 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.226 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.240 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.242 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.256 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.258 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.288 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.290 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.320 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.322 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.351 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.354 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.368 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.370 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.384 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.386 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.415 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.417 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.447 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.449 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.479 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.481 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.495 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.498 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.511 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.513 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.527 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.529 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.559 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.561 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.590 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.593 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.622 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.624 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.638 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.641 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.670 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.672 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.702 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.704 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.734 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.736 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.750 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.752 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.766 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.768 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.782 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.784 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.814 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.815 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.845 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.848 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.877 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.879 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.893 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.895 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.925 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.927 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.957 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.959 [DEBUG] Sending message b'?'
+2020-01-26,14:51:36.988 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=3, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:36.991 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.005 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.007 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.021 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.023 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.037 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.039 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.068 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.070 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.100 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.102 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.132 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.134 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.148 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.150 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.164 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.166 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.196 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.198 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.228 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.230 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.260 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.262 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.276 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.278 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.291 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.293 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.323 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.325 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.355 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.357 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.387 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.389 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.403 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.405 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.419 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.421 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.451 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.453 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.483 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.485 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.514 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.516 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.531 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.533 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.546 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.548 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.578 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.580 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.610 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.612 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.642 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.644 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.658 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.660 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.674 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.676 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.706 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.708 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.737 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.740 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.769 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.771 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.785 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.787 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.801 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.803 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.817 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.819 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.848 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.850 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.880 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.882 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.911 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.914 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.928 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.930 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.960 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.962 [DEBUG] Sending message b'?'
+2020-01-26,14:51:37.991 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:37.993 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.023 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.025 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.055 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=4, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.057 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.071 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.073 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.103 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.105 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.134 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.136 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.166 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.168 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.183 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.185 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.198 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.200 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.230 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.232 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.262 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.264 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.294 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.296 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.310 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.312 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.326 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.328 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.358 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.360 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.390 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.392 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.421 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.423 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.438 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.439 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.453 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.455 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.485 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.487 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.517 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.519 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.548 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.553 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.565 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.567 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.581 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.583 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.613 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.615 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.644 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.646 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.676 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.678 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.692 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.694 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.708 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.710 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.724 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.726 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.756 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.758 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.788 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.790 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.819 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.822 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.836 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.838 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.852 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.853 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.883 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.885 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.915 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.917 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.947 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.949 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.963 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.965 [DEBUG] Sending message b'?'
+2020-01-26,14:51:38.995 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:38.997 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.027 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.029 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.058 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.061 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.075 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.077 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.091 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=5, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.093 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.106 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.109 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.138 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.140 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.170 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.172 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.202 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.204 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.218 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.220 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.250 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.252 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.281 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.283 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.313 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.315 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.330 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.331 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.345 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.347 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.361 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.363 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.393 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.395 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.425 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.427 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.457 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.459 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.473 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.475 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.489 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.491 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.521 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.522 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.552 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.554 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.584 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.586 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.600 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.602 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.616 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.618 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.648 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.650 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.680 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.682 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.711 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.714 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.728 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.730 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.744 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.746 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.775 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.777 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.807 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.809 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.839 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.841 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.855 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.857 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.871 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.873 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.903 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.905 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.934 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.937 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.966 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.968 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.983 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:39.985 [DEBUG] Sending message b'?'
+2020-01-26,14:51:39.998 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.000 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.015 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.017 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.046 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.048 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.078 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.080 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.110 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.112 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.126 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.128 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.142 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=6, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.144 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.174 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.176 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.205 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.207 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.237 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.239 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.253 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.255 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.269 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.271 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.301 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.303 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.333 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.335 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.365 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.367 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.381 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.383 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.397 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.399 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.429 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.431 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.460 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.462 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.492 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.494 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.508 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.510 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.524 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.526 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.556 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.558 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.588 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.590 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.619 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.621 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.636 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.638 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.652 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.653 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.667 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.669 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.699 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.701 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.731 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.733 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.763 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.765 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.779 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.781 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.811 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.813 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.842 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.844 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.874 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.876 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.891 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.892 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.906 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.908 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.922 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.924 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.954 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.956 [DEBUG] Sending message b'?'
+2020-01-26,14:51:40.986 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:40.988 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.018 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.019 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.034 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.036 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.050 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.052 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.082 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.083 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.113 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.115 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.145 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.147 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.161 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.163 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.177 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.179 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.209 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.211 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.241 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.243 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.272 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.274 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.289 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.291 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.305 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.307 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.336 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.338 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.368 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.370 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.400 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.402 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.416 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.418 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.432 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.434 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.464 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.466 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.496 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.498 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.527 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.529 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.544 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.546 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.560 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.561 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.575 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.577 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.607 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.609 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.639 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.640 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.671 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.673 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.687 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.689 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.719 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.721 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.750 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.753 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.782 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.784 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.799 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.800 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.814 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.816 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.830 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.832 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.862 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.864 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.894 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.896 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.925 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.927 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.942 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.944 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.958 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.960 [DEBUG] Sending message b'?'
+2020-01-26,14:51:41.989 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=0, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:41.991 [DEBUG] Sending message b'T2'
+2020-01-26,14:51:42.005 [DEBUG] Unknown from track: b'T'
+2020-01-26,14:51:42.005 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.037 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.039 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.053 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.055 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.069 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.071 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.101 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.103 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.133 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.135 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.165 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.167 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.181 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.183 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.197 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.199 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.213 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.214 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.244 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.247 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.276 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.278 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.308 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.310 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.324 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.326 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.340 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.342 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.372 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.374 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.404 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.405 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.435 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.437 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.452 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.454 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.468 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.470 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.500 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.503 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.532 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.534 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.564 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.566 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.580 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.582 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.596 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.598 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.628 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.630 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.660 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.661 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.691 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.693 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.708 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.710 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.723 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.725 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.755 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.758 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.787 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.789 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.819 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.821 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.835 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.837 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.851 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.853 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.883 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.885 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.914 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.916 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.946 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.948 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.962 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.964 [DEBUG] Sending message b'?'
+2020-01-26,14:51:42.978 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:42.980 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.010 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.012 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.042 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.044 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.074 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.076 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.090 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.092 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.106 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.108 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.137 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.140 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.169 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.171 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.201 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.203 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.217 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.219 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.233 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.235 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.249 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.251 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.281 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.283 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.313 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.315 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.344 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.346 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.361 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.363 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.377 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.378 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.408 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.410 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.440 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.442 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.472 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.474 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.488 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.490 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.504 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.506 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.536 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.538 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.568 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.570 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.599 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.601 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.616 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.617 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.631 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.633 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.663 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.665 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.695 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.697 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.727 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.729 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.743 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.745 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.759 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.761 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.791 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.793 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.822 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.824 [DEBUG] Sending message b'?'
+2020-01-26,14:51:43.854 [DEBUG] Status from track: Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=1, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
+2020-01-26,14:51:43.860 [DEBUG] Closing connection
