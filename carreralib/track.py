@@ -1,5 +1,4 @@
 import logging
-from interface import implements
 
 from . import connection
 from . import ControlUnit
@@ -8,7 +7,7 @@ from .ITrack import ITrack
 
 logger = logging.getLogger(__name__)
 
-class Track(implements(ITrack)):
+class Track(ITrack):
 
     class Word():
         """Various constants defining location of words to write when setting values"""

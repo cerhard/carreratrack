@@ -9,7 +9,7 @@ import select
 import time
 
 from . import ControlUnit
-from track import Track
+from .track import Track
 
 
 def posgetter(driver):
