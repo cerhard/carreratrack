@@ -32,14 +32,14 @@ class Track(ITrack):
 
     def __init__(self, device, **kwargs):
         if isinstance(device, connection.Connection):
-            self.__connection = device
+            self._connection = device
         else:
             logger.debug('Connecting to %s', device)
-            self.__connection = connection.open(device, **kwargs)
+            self._connection = connection.open(device, **kwargs)
             logger.debug('Connection established')
 
     def close(self):
-        self.__connection.close()
+        self._connection.close()
 
     def reset(self):
         """Reset the CU timer."""
@@ -49,12 +49,12 @@ class Track(ITrack):
         self.setword(Track.Word.POSITION_TOWER, 0, 9)
 
     def send(self, buf, maxlength=None):
-        self.__connection.send(buf)
-        return self.__nextMessage(buf, maxlength)
+        self._connection.send(buf)
+        return self._nextMessage(buf, maxlength)
 
-    def __nextMessage(self, buf, maxlength):
+    def _nextMessage(self, buf, maxlength):
         while True:
-            res = self.__connection.recv(maxlength)
+            res = self._connection.recv(maxlength)
             if res.startswith(buf[0:1]):
                 break
             else:
