@@ -123,7 +123,7 @@ class ControlUnit(object):
                 break
             else:
                 logger.warn('Received unexpected message %r', res)
-        logger.debug('Received message %r', res)
+        #logger.debug('Received message %r', res)
         if res.startswith(b'?:'):
             # recent CU versions report two extra unknown bytes with '?:'
             try:
@@ -132,12 +132,17 @@ class ControlUnit(object):
                 parts = protocol.unpack('2x8YYYBYxxC', res)
             fuel, (start, mode, pitmask, display) = parts[:8], parts[8:]
             pit = tuple(pitmask & (1 << n) != 0 for n in range(8))
-            return ControlUnit.Status(fuel, start, mode, pit, display)
+            status = ControlUnit.Status(fuel, start, mode, pit, display)
+            logger.debug("Status from track: {}".format(status))
+            return status
         elif res.startswith(b'?'):
             address, timestamp, sector = protocol.unpack('xYIYC', res)
-            return ControlUnit.Timer(address - 1, timestamp, sector)
-        else:
-            return res
+            timer = ControlUnit.Timer(address - 1, timestamp, sector)
+            logger.debug("Timer from track: {}".format(timer))
+            return timer
+
+        logger.debug("Unknown from track: {}".format(res))
+        return res
 
     def reset(self):
         """Reset the CU timer."""
@@ -145,16 +150,19 @@ class ControlUnit(object):
 
     def setbrake(self, address, value):
         """Set the brake value for controller `address`."""
+        logger.debug("Setting brake on car {}(0 addressed) to {}".format(address, value))
         self.setword(1, address, value, repeat=2)
 
     def setfuel(self, address, value):
         """Set the fuel value for controller `address`."""
+        logger.debug("Setting fuel on car {}(0 addressed) to {}".format(address, value))
         self.setword(2, address, value, repeat=2)
 
     def setlap(self, value):
         """Set the current lap displayed by the Position Tower."""
         if value < 0 or value > 255:
             raise ValueError('Lap value out of range')
+        logger.debug("Setting lap to {}".format(value))
         self.setlap_hi(value >> 4)
         self.setlap_lo(value & 0xf)
 
@@ -170,10 +178,12 @@ class ControlUnit(object):
         """Set the controller's position displayed by the Position Tower."""
         if position < 1 or position > 8:
             raise ValueError('Position out of range')
+        logger.debug("Setting position of car {}(0 addressed) to {}".format(address, position))
         self.setword(6, address, position)
 
     def setspeed(self, address, value):
         """Set the speed value for controller address."""
+        logger.debug("Setting speed of car {}(0 addressed) to {}".format(address, value))
         self.setword(0, address, value, repeat=2)
 
     def setword(self, word, address, value, repeat=1):

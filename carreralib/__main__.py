@@ -197,7 +197,8 @@ args = parser.parse_args()
 
 logging.basicConfig(level=logging.DEBUG if args.verbose else logging.WARN,
                     filename=args.logfile,
-                    fmt='%(asctime)s: %(message)s')
+                    format='%(asctime)s.%(msecs)03d [%(levelname)s] %(message)s',
+                    datefmt='%Y-%m-%d,%H:%M:%S')
 
 with contextlib.closing(ControlUnit(args.device, timeout=args.timeout)) as cu:
     print('CU version %s' % cu.version())
