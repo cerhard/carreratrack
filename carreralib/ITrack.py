@@ -1,4 +1,6 @@
-class ITrack(object):
+from interfaces import Interface
+
+class ITrack(Interface):
 
     class Request:
         RESET = b'=10'
