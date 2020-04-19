@@ -107,7 +107,7 @@ class ControlUnit(object):
         """Ignore the controllers represented by bitmask `mask`."""
         self.request(protocol.pack('cBC', b':', mask))
 
-    def request(self, buf=b'?', maxlength=None):
+    def request(self, buf=b'?', response_needed=True, maxlength=None):
         """Send a message to the CU and wait for a response.
 
         The returned value will be an instance of either
@@ -123,7 +123,21 @@ class ControlUnit(object):
                 break
             else:
                 logger.warn('Received unexpected message %r', res)
-        #logger.debug('Received message %r', res)
+                if response_needed:
+                    # TODO cerhard 4/19/2020 - sometimes the response we get from the CU is wrong,
+                    # causing this error.  Seems to be more prevelant on my Raspberry Pi 4 with FTDI UART.
+                    # Adjusting baud rate, updating drivers, etc. did not work.
+                    #
+                    # If we care about the resonse, we're gonna have to send this message again and retry.
+                    # If we don't care about a response, we're done here.
+                    logger.info('Sending message %r again', buf)
+                    self.__connection.send(buf)
+                else:
+                    return None
+        
+        if not response_needed:
+            return None
+ 
         if res.startswith(b'?:'):
             # recent CU versions report two extra unknown bytes with '?:'
             try:
@@ -146,7 +160,7 @@ class ControlUnit(object):
 
     def reset(self):
         """Reset the CU timer."""
-        self.request(b'=10')
+        self.request(b'=10', response_needed=False)
 
     def setbrake(self, address, value):
         """Set the brake value for controller `address`."""
@@ -186,7 +200,7 @@ class ControlUnit(object):
         logger.debug("Setting speed of car {}(0 addressed) to {}".format(address, value))
         self.setword(0, address, value, repeat=2)
 
-    def setword(self, word, address, value, repeat=1):
+    def setword(self, word, address, value, repeat=1, response_needed=True):
         if word < 0 or word > 31:
             raise ValueError('Command word out of range')
         if address < 0 or address > 7:
@@ -196,11 +210,11 @@ class ControlUnit(object):
         if repeat < 1 or repeat > 15:
             raise ValueError('Repeat count out of range')
         buf = protocol.pack('cBYYC', b'J', word | address << 5, value, repeat)
-        return self.request(buf)
+        return self.request(buf, response_needed=response_needed)
 
     def start(self):
         """Initiate the CU start sequence."""
-        self.request(self.START_KEY)
+        self.request(self.START_KEY, response_needed=False)
 
     def version(self):
         """Retrieve the CU version."""
