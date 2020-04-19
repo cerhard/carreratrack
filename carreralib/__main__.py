@@ -9,7 +9,6 @@ import select
 import time
 
 from . import ControlUnit
-from track import Track
 
 
 def posgetter(driver):
@@ -98,15 +97,15 @@ class RMS(object):
                 elif c == ord(' '):
                     self.cu.start()
                 elif (c == 27):  # ESC
-                    self.cu.request(ControlUnit.Button.PACE_CAR)
+                    self.cu.request(ControlUnit.PACE_CAR_KEY)
                 elif c == ord('s'):
-                    self.cu.request(ControlUnit.Button.SPEED)
+                    self.cu.request(ControlUnit.SPEED_KEY)
                 elif c == ord('b'):
-                    self.cu.request(ControlUnit.Button.BRAKE)
+                    self.cu.request(ControlUnit.BRAKE_KEY)
                 elif c == ord('f'):
-                    self.cu.request(ControlUnit.Button.FUEL)
+                    self.cu.request(ControlUnit.FUEL_KEY)
                 elif c == ord('c'):
-                    self.cu.request(ControlUnit.Button.CODE)
+                    self.cu.request(ControlUnit.CODE_KEY)
                 data = self.cu.request()
                 # prevent counting duplicate laps
                 if data == last:
@@ -201,8 +200,7 @@ logging.basicConfig(level=logging.DEBUG if args.verbose else logging.WARN,
                     format='%(asctime)s.%(msecs)03d [%(levelname)s] %(message)s',
                     datefmt='%Y-%m-%d,%H:%M:%S')
 
-track = Track(args.device, timeout=args.timeout)
-with contextlib.closing(ControlUnit(track)) as cu:
+with contextlib.closing(ControlUnit(args.device, timeout=args.timeout)) as cu:
     print('CU version %s' % cu.version())
 
     def run(win):

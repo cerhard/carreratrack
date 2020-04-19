@@ -5,7 +5,6 @@ from collections import namedtuple
 
 from . import connection
 from . import protocol
-from . import ITrack
 
 logger = logging.getLogger(__name__)
 
@@ -69,103 +68,140 @@ class ControlUnit(object):
         """
         pass
 
-    class Button(object):
-        PACE_CAR = b'T1'
-        """Request for emulating the Control Unit's PACE CAR/ESC key."""
+    PACE_CAR_KEY = b'T1'
+    """Request for emulating the Control Unit's PACE CAR/ESC key."""
 
-        START = b'T2'
-        """Request for emulating the Control Unit's START/ENTER key."""
+    START_KEY = b'T2'
+    """Request for emulating the Control Unit's START/ENTER key."""
 
-        SPEED = b'T5'
-        """Request for emulating the Control Unit's SPEED key."""
+    SPEED_KEY = b'T5'
+    """Request for emulating the Control Unit's SPEED key."""
 
-        BRAKE = b'T6'
-        """Request for emulating the Control Unit's BRAKE key."""
+    BRAKE_KEY = b'T6'
+    """Request for emulating the Control Unit's BRAKE key."""
 
-        FUEL = b'T7'
-        """Request for emulating the Control Unit's FUEL key."""
+    FUEL_KEY = b'T7'
+    """Request for emulating the Control Unit's FUEL key."""
 
-        CODE = b'T8'
-        """Request for emulating the Control Unit's CODE key."""
+    CODE_KEY = b'T8'
+    """Request for emulating the Control Unit's CODE key."""
 
-    def __init__(self, track):
-        self.__track = track
-    
+    def __init__(self, device, **kwargs):
+        if isinstance(device, connection.Connection):
+            self.__connection = device
+        else:
+            logger.debug('Connecting to %s', device)
+            self.__connection = connection.open(device, **kwargs)
+            logger.debug('Connection established')
+
     def close(self):
         """Close the connection to the CU."""
-        self.__track.close()
+        logger.debug('Closing connection')
+        self.__connection.close()
 
     def clrpos(self):
         """Clear/reset the Position Tower display."""
-        self.__track.clearpostower()
+        self.setword(6, 0, 9)
 
     def ignore(self, mask):
         """Ignore the controllers represented by bitmask `mask`."""
         self.request(protocol.pack('cBC', b':', mask))
 
-    def request(self, buf=ITrack.ITrack.Request.STATUS, maxlength=None):
+    def request(self, buf=b'?', maxlength=None):
         """Send a message to the CU and wait for a response.
 
         The returned value will be an instance of either
         :class:`ControlUnit.Timer` or :class:`ControlUnit.Status`,
         depending on whether any timer events are pending.
+
         """
         logger.debug('Sending message %r', buf)
-        message = self.__track.send(buf, maxlength)
-        logger.debug('Received response ' + message)        
+        self.__connection.send(buf)
+        while True:
+            res = self.__connection.recv(maxlength)
+            if res.startswith(buf[0:1]):
+                break
+            else:
+                logger.warn('Received unexpected message %r', res)
+        #logger.debug('Received message %r', res)
+        if res.startswith(b'?:'):
+            # recent CU versions report two extra unknown bytes with '?:'
+            try:
+                parts = protocol.unpack('2x8YYYBYC', res)
+            except protocol.ChecksumError:
+                parts = protocol.unpack('2x8YYYBYxxC', res)
+            fuel, (start, mode, pitmask, display) = parts[:8], parts[8:]
+            pit = tuple(pitmask & (1 << n) != 0 for n in range(8))
+            status = ControlUnit.Status(fuel, start, mode, pit, display)
+            logger.debug("Status from track: {}".format(status))
+            return status
+        elif res.startswith(b'?'):
+            address, timestamp, sector = protocol.unpack('xYIYC', res)
+            timer = ControlUnit.Timer(address - 1, timestamp, sector)
+            logger.debug("Timer from track: {}".format(timer))
+            return timer
+        
+        logger.debug("Unknown from track: {}".format(res))
+        return res
 
     def reset(self):
         """Reset the CU timer."""
-        self.__track.reset()
+        self.request(b'=10')
 
     def setbrake(self, address, value):
         """Set the brake value for controller `address`."""
-        self.__validateAddress(address)
-        self.__validateStandardValue(value)
         logger.debug("Setting brake on car {}(0 addressed) to {}".format(address, value))
-        self.__track.setbrake(address, value)
+        self.setword(1, address, value, repeat=2)
 
     def setfuel(self, address, value):
         """Set the fuel value for controller `address`."""
-        self.__validateAddress(address)
-        self.__validateStandardValue(value)
         logger.debug("Setting fuel on car {}(0 addressed) to {}".format(address, value))
-        self.__track.setfuel(address, value)
+        self.setword(2, address, value, repeat=2)
 
     def setlap(self, value):
         """Set the current lap displayed by the Position Tower."""
         if value < 0 or value > 255:
             raise ValueError('Lap value out of range')
         logger.debug("Setting lap to {}".format(value))
-        self.__track.setlap(value)
+        self.setlap_hi(value >> 4)
+        self.setlap_lo(value & 0xf)
+
+    def setlap_hi(self, value):
+        """Set the high nibble of the current lap."""
+        self.setword(17, 7, value)
+
+    def setlap_lo(self, value):
+        """Set the low nibble of the current lap."""
+        self.setword(18, 7, value)
 
     def setpos(self, address, position):
         """Set the controller's position displayed by the Position Tower."""
-        self.__validateAddress(address)
         if position < 1 or position > 8:
             raise ValueError('Position out of range')
         logger.debug("Setting position of car {}(0 addressed) to {}".format(address, position))
-        self.__track.setPos(address, position)
+        self.setword(6, address, position)
 
     def setspeed(self, address, value):
         """Set the speed value for controller address."""
-        self.__validateAddress(address)
-        self.__validateStandardValue(value)
         logger.debug("Setting speed of car {}(0 addressed) to {}".format(address, value))
-        self.__track.setSpeed(address, value)
+        self.setword(0, address, value, repeat=2)
+
+    def setword(self, word, address, value, repeat=1):
+        if word < 0 or word > 31:
+            raise ValueError('Command word out of range')
+        if address < 0 or address > 7:
+            raise ValueError('Address out of range')
+        if value < 0 or value > 15:
+            raise ValueError('Value out of range')
+        if repeat < 1 or repeat > 15:
+            raise ValueError('Repeat count out of range')
+        buf = protocol.pack('cBYYC', b'J', word | address << 5, value, repeat)
+        return self.request(buf)
 
     def start(self):
         """Initiate the CU start sequence."""
-        self.request(ControlUnit.Button.START)
+        self.request(self.START_KEY)
 
     def version(self):
         """Retrieve the CU version."""
-        return self.__track.version()
-
-    def __validateAddress(self, address):
-        if address < 0 or address > 7:
-            raise ValueError('Address out of range')
-    
-    def __validateStandardValue(self, value):
-        if value < 0 or value > 15:
-            raise ValueError('Value out of range')
+        return protocol.unpack('x4sC', self.request(b'0'))[0]
