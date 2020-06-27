@@ -1,11 +1,56 @@
+from collections import namedtuple
+
+import calendar
+import contextlib
 import json
+import pika
+import time
 
 from carreralib import ControlUnit
-from .driver import Driver
-from .status import Status
+
+EXCHANGE_NAME = 'skyhopper'
+
+class Status(namedtuple("Status", "timestamp start_light mode display drivers")):
+        """Response type returned if no timer events are pending.
+
+        This is a :class:`collections.namedtuple` subclass with the
+        following read-only attributes:
+
+        +-----------------+-------+-------------------------------------------+
+        | Attribute       | Index | Value                                     |
+        +=================+=======+===========================================+
+        | :attr:`timestamp`   | 0     | Start light indicator (0..9)              |
+        +---------------------+-------+-------------------------------------------+
+        | :attr:`start`       | 1     | Start light indicator (0..9)              |
+        +---------------------+-------+-------------------------------------------+
+        | :attr:`mode`        | 2     | 4-bit mode bit mask                       |
+        +---------------------+-------+-------------------------------------------+
+        | :attr:`display`     | 3     | Number of drivers to display (6 or 8)     |
+        +---------------------+-------+-------------------------------------------+
+        | :attr:`drivers`     | 4     | Array of all :class:`skyhopper.driver`    |
+        +---------------------+-------+-------------------------------------------+
+        """
+
+class Driver(namedtuple('Driver', 'fuel pit')):
+        """
+        This is a :class:`collections.namedtuple` subclass with the
+        following read-only attributes:
+
+        +-----------------+-------+-------------------------------------------+
+        | Attribute       | Index | Value                                     |
+        +=================+=======+===========================================+
+        | :attr:`fuel`    | 0     | Fuel level (0..15)                        |
+        +-----------------+-------+-------------------------------------------+
+        | :attr:`pit`     | 1     | Pit lane bit mask (Boolean)               |
+        +-----------------+-------+-------------------------------------------+
+        """
 
 class Skyhopper(object):
-    def run():
+    def __init__(self, cu, rmq_channel):
+        self.cu = cu
+        self.channel = rmq_channel
+
+    def run(self):
         last = None
         while True:
             try:
@@ -20,16 +65,16 @@ class Skyhopper(object):
                 else:
                     logging.warn('Unknown data from CU: ' + data)
                 last = data
-            except select.error as e:
-                pass
             except IOError as e:
                 if e.errno != errno.EINTR:
                     raise
+            except Exception as e:
+                continue
 
-    def named_tuple_to_json(data):
+    def named_tuple_to_json(self, data):
         return json.dumps(data._asdict())
 
-    def construct_status(data):
+    def construct_status(self, data):
         # Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
         mode = data.mode
         start_light = data.start
@@ -37,12 +82,31 @@ class Skyhopper(object):
         drivers = []
         for fuel, pit in zip(data.fuel, data.pit):
             drivers.append(Driver(fuel=fuel, pit=pit))
-        return Status(start_light=start_light,display = display,mode = mode,drivers = drivers)
+        timestamp = calendar.timegm(time.gmtime())
+        return Status(timestamp=timestamp, start_light=start_light,display = display,mode = mode,drivers = drivers)
 
-    def handle_status(data):
-        status = construct_status(data)
-        send_to_rmq(status)
+    def handle_status(self, data):
+        status = self.construct_status(data)
+        routing_key = 'track.event.status'
+        self.channel.basic_publish(exchange=EXCHANGE_NAME, routing_key=routing_key, body=self.named_tuple_to_json(status))
 
-    def handle_timer(data):
+
+    def handle_timer(self, data):
         pass
+
+with pika.BlockingConnection(pika.ConnectionParameters(host='rabbitmq')) as connection:
+    channel = connection.channel()
+    channel.exchange_declare(exchange=EXCHANGE_NAME, exchange_type='topic')
+
+    # TODO - debugging
+    channel.queue_declare('foobar')
+    channel.queue_bind(exchange=EXCHANGE_NAME, queue='foobar', routing_key='track.event.status')
+
+    with contextlib.closing(ControlUnit('/dev/ttyUSB0', timeout=1.0)) as cu:
+        print('CU version %s' % cu.version())
+
+        s = Skyhopper(cu, channel)
+        s.run()
+
+
 
