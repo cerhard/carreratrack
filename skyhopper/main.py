@@ -114,10 +114,14 @@ if __name__ == "__main__":
         channel.queue_bind(exchange=EXCHANGE_NAME, queue='foobar', routing_key='track.event.status')
 
         with contextlib.closing(ControlUnit('/dev/ttyUSB0', timeout=1.0)) as cu:
-            print('CU version %s' % cu.version())
+            while True:
+                try:
+                    print('CU version %s' % cu.version())
+                    s = Skyhopper(cu, channel)
+                    s.run()
+                except Exception as e:
+                    continue
 
-            s = Skyhopper(cu, channel)
-            s.run()
 
 
 
