@@ -5,5 +5,5 @@ ADD skyhopper/  /opt/skyhopper/
 
 #ENV TERM=linux
 #ENV TERMINFO=/etc/terminfo
-#ENTRYPOINT [ "python", "/opt/skyhopper/main.py" ]
+ENTRYPOINT [ "python", "/opt/skyhopper/main.py" ]
 
