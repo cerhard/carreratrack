@@ -1,8 +1,6 @@
-FROM arm32v7/python:3.7-alpine3.12
+FROM ethanhunt314/python-pyserial:3.7-alpine3.12-pyserial3.4
 
 ADD carreralib/ /usr/local/lib/python3.7/site-packages/carreralib/
-
-RUN pip install pyserial==3.4
 
 ENV TERM=linux
 ENV TERMINFO=/etc/terminfo
