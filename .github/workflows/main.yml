@@ -16,7 +16,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
+  
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -27,7 +27,8 @@ jobs:
     - name: Build and push docker
       uses: docker/build-push-action@v1.1.0
       with:
-          repository: docker.pkg.github.com/cerhard/carreratrack
+          repository: cerhard/carreratrack
+          registry: docker.pkg.github.com
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           tags: latest,v0.0.1
