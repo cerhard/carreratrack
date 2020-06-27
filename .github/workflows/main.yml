@@ -30,7 +30,7 @@ jobs:
     - name: Build and push docker
       uses: docker/build-push-action@v1.1.0
       with:
-          repository: cerhard/carreratrack
+          repository: cerhard/carreratrack/carreratrack
           registry: docker.pkg.github.com
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
