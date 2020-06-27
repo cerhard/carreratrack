@@ -16,5 +16,4 @@ class SkyhopperTest(unittest.TestCase):
 
         s = Skyhopper.construct_status(status)
         self.assertTrue(expected_value == s)
-        self.assertTrue(False)
         

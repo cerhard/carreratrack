@@ -27,7 +27,7 @@ help:
 	@echo ''
 
 test:
-	 python3 -m unittest `ls -1 tests/test_*.py`
+	 pytest-3 tests/test_*.py
 
 deploy:
 	docker push $(REMOTE_DOCKER_TAG)
