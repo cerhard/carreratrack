@@ -31,7 +31,7 @@ class Status(namedtuple("Status", "timestamp start_light mode display drivers"))
         +---------------------+-------+-------------------------------------------+
         """
 
-class Driver(namedtuple('Driver', 'fuel pit')):
+class Driver(namedtuple('Driver', 'fuel pit id')):
         """
         This is a :class:`collections.namedtuple` subclass with the
         following read-only attributes:
@@ -42,6 +42,8 @@ class Driver(namedtuple('Driver', 'fuel pit')):
         | :attr:`fuel`    | 0     | Fuel level (0..15)                        |
         +-----------------+-------+-------------------------------------------+
         | :attr:`pit`     | 1     | Pit lane bit mask (Boolean)               |
+        +-----------------+-------+-------------------------------------------+
+        | :attr:`id`      | 2     | Pit lane bit mask (Boolean)               |
         +-----------------+-------+-------------------------------------------+
         """
 
@@ -65,14 +67,21 @@ class Skyhopper(object):
                 else:
                     logging.warn('Unknown data from CU: ' + data)
                 last = data
-            except IOError as e:
-                if e.errno != errno.EINTR:
-                    raise
             except Exception as e:
                 continue
 
+    # TODO - Status only!
     def named_tuple_to_json(self, data):
-        return json.dumps(data._asdict())
+        d = dict()
+        # timestamp start_light mode display drivers
+        d['timestamp'] = data.timestamp
+        d['start_light'] = data.start_light
+        d['mode'] = data.mode
+        d['display'] = data.display
+        d['drivers'] = []
+        for driver in data.drivers:
+            d['drivers'].append(driver._asdict())
+        return json.dumps(d)
 
     def construct_status(self, data):
         # Status(fuel=(15, 15, 15, 15, 15, 15, 0, 0), start=7, mode=6, pit=(False, False, False, False, False, False, False, False), display=8)
@@ -80,8 +89,8 @@ class Skyhopper(object):
         start_light = data.start
         display = data.display
         drivers = []
-        for fuel, pit in zip(data.fuel, data.pit):
-            drivers.append(Driver(fuel=fuel, pit=pit))
+        for fuel, pit, id in zip(data.fuel, data.pit, range(0,len(data.fuel))):
+            drivers.append(Driver(fuel=fuel, pit=pit, id=id+1))
         timestamp = calendar.timegm(time.gmtime())
         return Status(timestamp=timestamp, start_light=start_light,display = display,mode = mode,drivers = drivers)
 
