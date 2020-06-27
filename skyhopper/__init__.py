@@ -1,6 +1,6 @@
 from .main import Skyhopper
-from .driver import Driver
-from .status import Status
+from .main import Driver
+from .main import Status
 
 __all__ = (
     'Skyhopper',

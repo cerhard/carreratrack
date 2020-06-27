@@ -103,19 +103,21 @@ class Skyhopper(object):
     def handle_timer(self, data):
         pass
 
-with pika.BlockingConnection(pika.ConnectionParameters(host='rabbitmq')) as connection:
-    channel = connection.channel()
-    channel.exchange_declare(exchange=EXCHANGE_NAME, exchange_type='topic')
+if __name__ == "__main__":
 
-    # TODO - debugging
-    channel.queue_declare('foobar')
-    channel.queue_bind(exchange=EXCHANGE_NAME, queue='foobar', routing_key='track.event.status')
+    with pika.BlockingConnection(pika.ConnectionParameters(host='rabbitmq')) as connection:
+        channel = connection.channel()
+        channel.exchange_declare(exchange=EXCHANGE_NAME, exchange_type='topic')
 
-    with contextlib.closing(ControlUnit('/dev/ttyUSB0', timeout=1.0)) as cu:
-        print('CU version %s' % cu.version())
+        # TODO - debugging
+        channel.queue_declare('foobar')
+        channel.queue_bind(exchange=EXCHANGE_NAME, queue='foobar', routing_key='track.event.status')
 
-        s = Skyhopper(cu, channel)
-        s.run()
+        with contextlib.closing(ControlUnit('/dev/ttyUSB0', timeout=1.0)) as cu:
+            print('CU version %s' % cu.version())
+
+            s = Skyhopper(cu, channel)
+            s.run()
 
 
 
