@@ -33,6 +33,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           tags: latest,v0.0.1
           tag_with_ref: true
+          dockerfile: Dockerfile
           
         
 
