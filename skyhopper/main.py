@@ -5,65 +5,78 @@ import contextlib
 import json
 import pika
 import time
+import typing
 
 from carreralib import ControlUnit
 
 EXCHANGE_NAME = 'skyhopper'
 
-class Status(namedtuple("Status", "timestamp start_light mode display drivers")):
-        """Response type returned if no timer events are pending.
+class Driver(typing.NamedTuple):
+    """
+    This is a :class:`collections.namedtuple` subclass with the
+    following read-only attributes:
 
-        This is a :class:`collections.namedtuple` subclass with the
-        following read-only attributes:
+    +-----------------+-------+-------------------------------------------+
+    | Attribute       | Index | Value                                     |
+    +=================+=======+===========================================+
+    | :attr:`fuel`    | 0     | Fuel level (0..15)                        |
+    +-----------------+-------+-------------------------------------------+
+    | :attr:`pit`     | 1     | Pit lane bit mask (Boolean)               |
+    +-----------------+-------+-------------------------------------------+
+    | :attr:`id`      | 2     | Pit lane bit mask (Boolean)               |
+    +-----------------+-------+-------------------------------------------+
+    """
+    fuel: int
+    pit: bool
+    id: bool
 
-        +-----------------+-------+-------------------------------------------+
-        | Attribute       | Index | Value                                     |
-        +=================+=======+===========================================+
-        | :attr:`timestamp`   | 0     | Start light indicator (0..9)              |
-        +---------------------+-------+-------------------------------------------+
-        | :attr:`start`       | 1     | Start light indicator (0..9)              |
-        +---------------------+-------+-------------------------------------------+
-        | :attr:`mode`        | 2     | 4-bit mode bit mask                       |
-        +---------------------+-------+-------------------------------------------+
-        | :attr:`display`     | 3     | Number of drivers to display (6 or 8)     |
-        +---------------------+-------+-------------------------------------------+
-        | :attr:`drivers`     | 4     | Array of all :class:`skyhopper.driver`    |
-        +---------------------+-------+-------------------------------------------+
-        """
+class Status(typing.NamedTuple):
+    """Response type returned if no timer events are pending.
 
-class Driver(namedtuple('Driver', 'fuel pit id')):
-        """
-        This is a :class:`collections.namedtuple` subclass with the
-        following read-only attributes:
+    This is a :class:`collections.namedtuple` subclass with the
+    following read-only attributes:
 
-        +-----------------+-------+-------------------------------------------+
-        | Attribute       | Index | Value                                     |
-        +=================+=======+===========================================+
-        | :attr:`fuel`    | 0     | Fuel level (0..15)                        |
-        +-----------------+-------+-------------------------------------------+
-        | :attr:`pit`     | 1     | Pit lane bit mask (Boolean)               |
-        +-----------------+-------+-------------------------------------------+
-        | :attr:`id`      | 2     | Pit lane bit mask (Boolean)               |
-        +-----------------+-------+-------------------------------------------+
-        """
+    +-----------------+-------+-------------------------------------------+
+    | Attribute       | Index | Value                                     |
+    +=================+=======+===========================================+
+    | :attr:`timestamp`   | 0     | Start light indicator (0..9)              |
+    +---------------------+-------+-------------------------------------------+
+    | :attr:`start`       | 1     | Start light indicator (0..9)              |
+    +---------------------+-------+-------------------------------------------+
+    | :attr:`mode`        | 2     | 4-bit mode bit mask                       |
+    +---------------------+-------+-------------------------------------------+
+    | :attr:`display`     | 3     | Number of drivers to display (6 or 8)     |
+    +---------------------+-------+-------------------------------------------+
+    | :attr:`drivers`     | 4     | Array of all :class:`skyhopper.driver`    |
+    +---------------------+-------+-------------------------------------------+
+    """
+    timestamp: int
+    start_light: int
+    mode: int
+    display: int
+    drivers: Driver
 
-class Timer(namedtuple('Timer', 'timestamp_epoch timer_value driver sector')):
-        """
-        This is a :class:`collections.namedtuple` subclass with the
-        following read-only attributes:
+class Timer(typing.NamedTuple):
+    """
+    This is a :class:`collections.namedtuple` subclass with the
+    following read-only attributes:
 
-        +-----------------+-------+-----------------------------------------------------------+
-        | Attribute       | Index | Value                                                     |
-        +=================+=======+===========================================================+
-        | :attr:`timestamp_epoch`    | 0     | The time in which the message was constructed  |
-        +-----------------+----------+--------------------------------------------------------+
-        | :attr:`timer_value`        | 1     | Timer this event represents (lap time)         |
-        +-----------------+----------+--------------------------------------------------------+
-        | :attr:`driver`             | 2     | Driver number (1-indexed)                      |
-        +-----------------+----------+--------------------------------------------------------+
-        | :attr:`sector`             | 2     | Sector                                         |
-        +-----------------+----------+--------------------------------------------------------+
-        """
+    +-----------------+-------+-----------------------------------------------------------+
+    | Attribute       | Index | Value                                                     |
+    +=================+=======+===========================================================+
+    | :attr:`timestamp_epoch`    | 0     | The time in which the message was constructed  |
+    +-----------------+----------+--------------------------------------------------------+
+    | :attr:`timer_value`        | 1     | Timer this event represents (lap time)         |
+    +-----------------+----------+--------------------------------------------------------+
+    | :attr:`driver`             | 2     | Driver number (1-indexed)                      |
+    +-----------------+----------+--------------------------------------------------------+
+    | :attr:`sector`             | 3     | Sector                                         |
+    +-----------------+----------+--------------------------------------------------------+
+    """
+    timestamp_epoch: int
+    timer_value: int
+    driver: int
+    sector: int
 
 class Skyhopper(object):
     def __init__(self, cu, rmq_channel):
@@ -83,7 +96,7 @@ class Skyhopper(object):
                 elif isinstance(data, ControlUnit.Timer):
                     self.handle_timer(data)
                 else:
-                    logging.warn('Unknown data from CU: ' + data)
+                    print('Unknown data from CU: ' + data)
                 last = data
             except Exception as e:
                 continue
