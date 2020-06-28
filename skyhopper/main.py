@@ -47,6 +47,24 @@ class Driver(namedtuple('Driver', 'fuel pit id')):
         +-----------------+-------+-------------------------------------------+
         """
 
+class Timer(namedtuple('Timer', 'timestamp_epoch timer_value driver sector')):
+        """
+        This is a :class:`collections.namedtuple` subclass with the
+        following read-only attributes:
+
+        +-----------------+-------+-----------------------------------------------------------+
+        | Attribute       | Index | Value                                                     |
+        +=================+=======+===========================================================+
+        | :attr:`timestamp_epoch`    | 0     | The time in which the message was constructed  |
+        +-----------------+----------+--------------------------------------------------------+
+        | :attr:`timer_value`        | 1     | Timer this event represents (lap time)         |
+        +-----------------+----------+--------------------------------------------------------+
+        | :attr:`driver`             | 2     | Driver number (1-indexed)                      |
+        +-----------------+----------+--------------------------------------------------------+
+        | :attr:`sector`             | 2     | Sector                                         |
+        +-----------------+----------+--------------------------------------------------------+
+        """
+
 class Skyhopper(object):
     def __init__(self, cu, rmq_channel):
         self.cu = cu
@@ -71,7 +89,7 @@ class Skyhopper(object):
                 continue
 
     # TODO - Status only!
-    def named_tuple_to_json(self, data):
+    def status_to_json(self, data):
         d = dict()
         # timestamp start_light mode display drivers
         d['timestamp'] = data.timestamp
@@ -97,10 +115,23 @@ class Skyhopper(object):
     def handle_status(self, data):
         status = self.construct_status(data)
         routing_key = 'track.event.status'
-        self.channel.basic_publish(exchange=EXCHANGE_NAME, routing_key=routing_key, body=self.named_tuple_to_json(status))
+        self.channel.basic_publish(exchange=EXCHANGE_NAME, routing_key=routing_key, body=self.status_to_json(status))
 
+    def construct_timer(self, data):
+        # Timer(address=0, timestamp=59493, sector=1)
+        driver = data.address + 1  # 0 indexed
+        timestamp_ms = data.timestamp
+        sector = data.sector
+        timestamp_epoch = calendar.timegm(time.gmtime())
+        return Timer(timestamp_epoch = timestamp_epoch, driver=driver, timer_value = timestamp_ms, sector = sector)
+
+    def timer_to_json(self, data):
+        return json.dumps(data.__asdict())
 
     def handle_timer(self, data):
+        timer = self.construct_timer(data)
+        routing_key = 'track.event.timer'
+        self.channel.basic_publish(exchange=EXCHANGE_NAME, routing_key=routing_key, body=self.timer_to_json(timer))
         pass
 
 if __name__ == "__main__":
