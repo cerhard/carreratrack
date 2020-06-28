@@ -4,7 +4,5 @@ ADD carreralib/ /usr/local/lib/python3.7/site-packages/carreralib/
 ADD skyhopper/  /opt/skyhopper/
 ADD bin/wait-for /usr/local/bin/
 
-RUN chmod 0755 /usr/local/bin/wait-for
-
 ENTRYPOINT [ "/usr/local/bin/wait-for", "rabbitmq:15672", "--", "python", "/opt/skyhopper/main.py" ]
 
