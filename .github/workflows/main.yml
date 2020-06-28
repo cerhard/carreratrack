@@ -9,10 +9,12 @@ on:
     branches: 
         - master
         - feature/*
+        - issue/*
   pull_request:
     branches: 
         - master
         - feature/*
+        - issue/*
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
