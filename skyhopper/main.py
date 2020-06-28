@@ -88,7 +88,6 @@ class Skyhopper(object):
             except Exception as e:
                 continue
 
-    # TODO - Status only!
     def status_to_json(self, data):
         d = dict()
         # timestamp start_light mode display drivers
