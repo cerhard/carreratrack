@@ -26,6 +26,9 @@ help:
 	@echo '  clean      remove docker --image--'
 	@echo ''
 
+test:
+	 pytest-3 tests/test_*.py
+
 deploy:
 	docker push $(REMOTE_DOCKER_TAG)
 	docker push $(REMOTE_LATEST_TAG)
@@ -35,3 +38,5 @@ clean:
 	docker rmi $(LOCAL_DOCKER_TAG)
 	docker rmi $(REMOTE_LATEST_TAG)
 	docker rmi $(LATEST_TAG)
+
+
