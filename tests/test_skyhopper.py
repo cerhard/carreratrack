@@ -4,6 +4,7 @@ from carreralib import ControlUnit
 from skyhopper import Skyhopper
 from skyhopper import Driver
 from skyhopper import Status
+from skyhopper import Timer
 
 class SkyhopperTest(unittest.TestCase):
     
@@ -22,3 +23,12 @@ class SkyhopperTest(unittest.TestCase):
         self.assertTrue(expected_value.display == s.display)
         self.assertTrue(expected_value.drivers == s.drivers)
         
+    def test_timer_conversion(self):
+        timer = ControlUnit.Timer(address=3, sector=2, timestamp=12345)
+        expected_value = Timer(timestamp_epoch=None, timer_value=12345, driver=4, sector=2)
+        skyh = Skyhopper(None, None)
+        s = skyh.construct_timer(timer)
+
+        self.assertTrue(expected_value.timer_value == s.timer_value)
+        self.assertTrue(expected_value.driver == s.driver)
+        self.assertTrue(expected_value.sector == s.sector)
