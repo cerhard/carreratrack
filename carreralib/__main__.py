@@ -195,7 +195,7 @@ parser.add_argument('-t', '--timeout', default=1.0, type=float)
 parser.add_argument('-v', '--verbose', action='store_true')
 args = parser.parse_args()
 
-logging.basicConfig(level=logging.DEBUG if args.verbose else logging.WARN,
+logging.basicConfig(level=logging.INFO if args.verbose else logging.WARN,
                     filename=args.logfile,
                     format='%(asctime)s.%(msecs)03d [%(levelname)s] %(message)s',
                     datefmt='%Y-%m-%d,%H:%M:%S')

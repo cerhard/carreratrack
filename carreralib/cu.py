@@ -204,7 +204,7 @@ class ControlUnit(object):
         if word < 0 or word > 31:
             raise ValueError('Command word out of range')
         if address < 0 or address > 7:
-            raise ValueError('Address out of range')
+            raise ValueError('Address {} out of range'.format(address))
         if value < 0 or value > 15:
             raise ValueError('Value out of range')
         if repeat < 1 or repeat > 15:
